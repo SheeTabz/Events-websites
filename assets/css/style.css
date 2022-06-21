@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    font-family:"Heebo", sans-serif
+}
+.landing-page{
+    min-height: 100vh;
+    background: url(../images/event.jpeg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.navigate{
+    display: flex;
+    list-style: none;
+    
+}
+.navigate li {
+    padding-left:10rem;
+    font-size: 1.2rem;
+}
+.logo{
+    font-family: "Lobster",cursive;
+    font-weight: 700;
+}
+.main-text{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    
+}
